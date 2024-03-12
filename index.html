@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+
+<html>
+
+
+<style>body { background-color: black;
+p { color: white;}
+h1 { color: white}
+h2 { color: white}
+h3 { color: white}
+h4 { color: white}
+li {color: white;}
+a {color: rgb(90, 195, 90);}
+font-size: 19px;
+font-family: Arial, Helvetica, sans-serif;
+    </style>
+
+
+<head>
+
+  <title> Hello! :P </title>
+
+</head>
+
+<body>
+ 
+  <h1> Hello, welcome to my kinda daily blog! </h1>
+
+  <p> How did you get here? That doesn't matter to me. Welcome to a day in the life of another person! </p>
+
+  <br>
+  <br>
+
+  <h2> About my kinda daily blog! </h2>
+
+  <p> Welcome to my kinda daily blog (the reason why I said kinda daily is because I don't add stuff every day, so yea)! I talk about all sorts of stuff here. </p>
+
+  <br>
+
+  <!-- This part isn't really important -->
+
+  <h3> Why did I make this blog? </h3>
+
+  <p> I made this blog because I tried to make a diary, but it didn't work. However, I like tech, so I made this. </p>
+
+  <h4> About Me </h4>
+
+  <ul>
+    <!-- About me: what I like (A tech nerd!), what I am (A school student), and my Gmail (appattack0+blog@gmail.com) -->
+    <li> appattack0+blog@gmail.com </li>
+    <li> A tech nerd! </li>
+    <li> A school student </li>
+  </ul>
+
+  <br>
+
+  <h2><a href="javascript:void(0);" onclick="toggleBlog()">Blog</a></h2>
+
+  <div id="blogEntries" style="display: none;">
+    <h2><a name="Day1"> Day 1 (March 11, 2024) </a></h2>
+    <p>
+      This day has been cool. I started this website.
+      <br>
+      I also ate some very good food!
+      <br>
+      <img src="day1.png" width="400" height="300">
+      <br>
+        (Image of me coding this website)
+    </p>
+
+  </div>
+
+  <script>
+    function toggleBlog() {
+      var blogEntries = document.getElementById("blogEntries");
+      blogEntries.style.display = (blogEntries.style.display === "none") ? "block" : "none";
+    }
+  </script>
+
+</body>
+
+</html>
